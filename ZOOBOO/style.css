@@ -1,0 +1,130 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Trebuchet', 'Lucida Sans Unicode';
+}
+
+.banner {
+    height: 300px;
+    background-color: brown;
+    background-image: url(images/zoo-banner.jpeg);
+    background-size: cover;
+}
+
+.nav {
+    background-color: bisque;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    background-color: brown;
+    margin: 10px;
+    padding-top: 12px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav ul li:hover {
+    background-color: darkred;
+}
+
+.nav ul li a:hover {
+    color: cyan;
+}
+
+#amibibian {
+    background-color: burlywood;
+}
+
+#amibibian ul li {
+    text-align: left;
+    list-style-type: square;
+}
+
+.amphibian_card {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.amphibian_card:hover {
+    background-color: aliceblue;
+}
+
+.amphibian_card img {
+    width: 100%;
+}
+
+.bird_card {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+
+}
+
+.bird_card:hover {
+    background-color: aliceblue;
+}
+
+.bird_card img {
+    width: 100%;
+}
+
+
+
+
+
+
+.mammal_card {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+
+}
+
+.mammal_card:hover {
+    background-color: aliceblue;
+}
+
+.mammal_card img {
+    width: 100%;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid white;
+}
